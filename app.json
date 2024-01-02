@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "test-typescript",
-    "slug": "test-typescript",
+    "name": "Currency Converter",
+    "slug": "currency-converter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#4f6d7a"
+      },
+      "package": "com.kevinlink123.currencyconverter"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0326c4b7-2e51-412e-95b7-18425177cb76"
+      }
     }
   }
 }
